@@ -1,0 +1,82 @@
+<!-- Made By Indrakant -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Landing Page By Indrakant</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Travel</h2>
+        <div class="toggle"></div>
+      </header>
+
+      <video
+        src="./assets/Pexels_Videos_2169880_SparkVideo_SparkVideo.mp4"
+        width="100%"
+        muted
+        loop
+        autoplay
+      ></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Never Stop</h2>
+        <h3>Exploring The World</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
+          repudiandae at consequatur consequuntur eaque, quibusdam quisquam
+          officia molestiae iusto distinctio?
+        </p>
+        <a href="">Explore</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href=""><i class="fab fa-facebook-f fa-lg"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fab fa-instagram fa-lg"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fab fa-twitter fa-lg"></i></a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Desination</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showCase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", function () {
+        menuToggle.classList.toggle("active");
+        showCase.classList.toggle("active");
+      });
+
+      console.log("Working");
+    </script>
+  </body>
+</html>
